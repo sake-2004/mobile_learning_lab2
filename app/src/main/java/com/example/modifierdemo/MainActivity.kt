@@ -53,7 +53,8 @@ fun DemoScreen(modifier: Modifier = Modifier) {
 fun CustomImage(image: Int, modifier: Modifier = Modifier) {
     Image(
         painter = painterResource(image),
-        contentDescription = null
+        contentDescription = null,
+        modifier
     )
 }
 
